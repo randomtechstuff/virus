@@ -30,7 +30,7 @@ echo - Hyper-V
 echo - Windows Sandbox
 echo  
 echo I am NOT responsible for any damage to your system, including data loss, inability to boot, or the need for reinstallation.
-echo 
+echo  
 echo By proceeding, you acknowledge the risks and take full responsibility for any consequences.
 echo  
 set /p confirm="Type 'ProceedNow (case sensitive)' to continueand anything else to exit or just close this window: "
