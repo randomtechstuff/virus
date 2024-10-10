@@ -21,18 +21,18 @@ echo                 WARNING: DESTRUCTIVE SCRIPT
 echo *****************************************************
 echo This script will modify or erase critical system components such as the Master Boot Record (MBR).
 echo Running this script will make the system unbootable and result in complete data loss.
-echo 
+echo  
 echo *** USE THIS SCRIPT ONLY IN A VIRTUAL MACHINE ***
 echo Run this script ONLY in an isolated environment like:
 echo - VMware
 echo - VirtualBox
 echo - Hyper-V
 echo - Windows Sandbox
-echo 
+echo  
 echo I am NOT responsible for any damage to your system, including data loss, inability to boot, or the need for reinstallation.
 echo 
 echo By proceeding, you acknowledge the risks and take full responsibility for any consequences.
-echo 
+echo  
 set /p confirm="Type 'ProceedNow (case sensitive)' to continueand anything else to exit or just close this window: "
 if /I "%confirm%" neq "ProceedNow" (
     echo Operation cancelled.
